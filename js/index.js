@@ -10,7 +10,7 @@ function bubbleStopAt3(e) {
 function bubble(e) {
   console.log(this.firstChild.nodeValue.trim() + ' bubbled');
 }
-var divs = querySelectorAll('div');
+const divs = document.querySelectorAll('div');
 for (let i = 0; i < divs.length; i++) {
   divs[i].addEventListener('click', bubble);
   //divs[i].addEventListener('click', bubbleStopAt3);
