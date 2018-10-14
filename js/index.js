@@ -2,7 +2,7 @@ function bubbleStopAt3(e) {
   // stop! that! propagation!
   var value = this.firstChild.nodeValue.trim();
   if (value === '3'){
-    return e.preventDefault();
+    e.preventDefault();
   }
   console.log(value+ ' bubbled');
 }
