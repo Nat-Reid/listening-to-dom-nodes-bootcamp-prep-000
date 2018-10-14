@@ -17,7 +17,7 @@ for (let i = 0; i < divs.length; i++) {
 }
 
 const input = document.querySelector('input')
- 
+
 input.addEventListener('keydown', function(e) {
   if (e.which === 71) {
     return e.preventDefault()
