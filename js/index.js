@@ -15,6 +15,3 @@ for (let i = 0; i < divs.length; i++) {
   divs[i].addEventListener('click', bubble);
   //divs[i].addEventListener('click', bubbleStopAt3);
 }
-document.body.addEventListener('keydown', function(e){
-  console.log(e.key);
-});
